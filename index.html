@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phát triển chương trình thể hiện sự tương tác giữa hai đối tượng: công tắc và bóng đèn</title>
+
+</head>
+<body>
+<script src="ElectricLamp.js"></script>
+<script>
+    let switch_button = new SwitchButton()
+    switch_button.connectToLamp()
+    switch_button.switchOn()
+    alert(switch_button.lamp.status)
+</script>
+</body>
+</html>
